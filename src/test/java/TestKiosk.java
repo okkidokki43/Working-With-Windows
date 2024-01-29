@@ -30,7 +30,7 @@ public class TestKiosk {
         }
     }
     @Test
-    public void kioskChrome() {
+    public void Testkiosk() {
         List<WebElement> imageList = driver.findElements(By.cssSelector
                 (".content-overlay"));
         waitTools.waitForCondition(ExpectedConditions.stalenessOf
