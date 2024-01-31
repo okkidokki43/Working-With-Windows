@@ -36,7 +36,7 @@ public class TestFullscreen {
     }
 
     @Test
-    public void Testauthlogs() {
+    public void authentication() {
         String enterLocator = "//button[text()='Войти']";
         waitTools.waitForCondition(ExpectedConditions.presenceOfElementLocated
                 (By.xpath(enterLocator)));
