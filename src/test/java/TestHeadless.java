@@ -29,7 +29,7 @@ public class TestHeadless {
         }
     }
     @Test
-    public void headlessChrome() {
+    public void headless() {
         driver.findElement(By.cssSelector("input[aria-autocomplete]"))
                 .sendKeys("ОТУС" + Keys.ENTER);
         WebElement oneResalt = driver.findElement(By.xpath
